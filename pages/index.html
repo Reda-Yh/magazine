@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Numérique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="hero-content text-center text-white">
+                        <h1 class="display-4 fw-bold mb-4">Découvrez l'actualité autrement</h1>
+                        <p class="lead mb-4">Les dernières tendances en technologie, mode et sport</p>
+                        <div class="search-bar">
+                            <input type="text" class="form-control" placeholder="Rechercher un article...">
+                            <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Articles -->
+    <section class="featured-articles py-5">
+        <div class="container">
+            <h2 class="section-title">Articles à la une</h2>
+            <div class="row g-4">
+                <div class="col-md-8">
+                    <a href="/pages/article.html" class="text-decoration-none">
+                        <div class="featured-main">
+                            <img src="https://picsum.photos/800/400" alt="Article principal" class="img-fluid rounded">
+                            <div class="featured-content">
+                                <span class="badge bg-primary">Technologie</span>
+                                <h3>L'intelligence artificielle révolutionne notre quotidien</h3>
+                                <p>Découvrez comment l'IA transforme nos vies et nos façons de travailler...</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/pages/article.html" class="text-decoration-none">
+                        <div class="featured-secondary mb-4">
+                            <img src="https://picsum.photos/400/200" alt="Article secondaire" class="img-fluid rounded">
+                            <div class="featured-content">
+                                <span class="badge bg-success">Mode</span>
+                                <h4>Les tendances de l'été 2024</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/pages/article.html" class="text-decoration-none">
+                        <div class="featured-secondary">
+                            <img src="https://picsum.photos/400/200" alt="Article secondaire" class="img-fluid rounded">
+                            <div class="featured-content">
+                                <span class="badge bg-warning">Sport</span>
+                                <h4>Préparation des JO 2024</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Explorez nos catégories</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <a href="/pages/categories.html#tech" class="text-decoration-none">
+                        <div class="category-card tech">
+                            <div class="category-icon">
+                                <i class="bi bi-cpu"></i>
+                            </div>
+                            <h3>Technologie</h3>
+                            <p>Innovation, IA, et transformation digitale</p>
+                            <span class="btn btn-outline-primary">Explorer</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/pages/categories.html#mode" class="text-decoration-none">
+                        <div class="category-card fashion">
+                            <div class="category-icon">
+                                <i class="bi bi-bag"></i>
+                            </div>
+                            <h3>Mode</h3>
+                            <p>Tendances, style et conseils mode</p>
+                            <span class="btn btn-outline-primary">Explorer</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="/pages/categories.html#sport" class="text-decoration-none">
+                        <div class="category-card sport">
+                            <div class="category-icon">
+                                <i class="bi bi-trophy"></i>
+                            </div>
+                            <h3>Sport</h3>
+                            <p>Actualités sportives et analyses</p>
+                            <span class="btn btn-outline-primary">Explorer</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Restez informé</h2>
+                    <p class="lead">Abonnez-vous à notre newsletter pour recevoir les derniers articles</p>
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Votre email">
+                            <button class="btn btn-primary" type="submit">S'abonner</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>
